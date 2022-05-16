@@ -1,3 +1,5 @@
+# Penghitung Bunga
+
 print('=' * 25)
 print('Operasi Matematika')
 print('  1. Hitung Besar Bunga         [Rp]')
