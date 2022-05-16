@@ -1,10 +1,10 @@
 # Penghitung Bunga
 
-print('=' * 25)
+print('=' * 35)
 print('Operasi Matematika')
 print('  1. Hitung Besar Bunga         [Rp]')
 print('  2. Hitung Persentase Bunga \t [%]')
-print('=' * 25)
+print('=' * 35)
 
 operasi = input('Pilih operasi (1/2): ')
 if operasi == '1':
@@ -19,6 +19,7 @@ elif operasi == '2':
     bunga = eval(input('Masukkan bunga yang didapat(Rp):'))
     tabungan = eval(input('Masukkan besar tabungan(Rp):'))
 
+print('=' * 35)
 if operasi == '1':
     hasil = int(tabungan * persbunga / 100)
     print(f'Bunga yang di dapat adalah {hasil} Rupiah')
